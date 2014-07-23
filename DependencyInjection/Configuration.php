@@ -14,13 +14,13 @@ class Configuration implements ConfigurationInterface
     {
         $treeBuilder = new TreeBuilder();
 
-        $treeBuilder
-            ->root('jbilling_api', 'array')
-                ->children()
-                    ->scalarNode('url')->cannotBeEmpty()->end()
-                    ->scalarNode('username')->cannotBeEmpty()->end()
-                    ->scalarNode('password')->cannotBeEmpty()->end()
-                ->end()
+        $rootNode = $treeBuilder->root('j_billing_php_api');
+
+        $rootNode
+            ->children()
+                ->scalarNode('url')->cannotBeEmpty()->end()
+                ->scalarNode('username')->cannotBeEmpty()->end()
+                ->scalarNode('password')->cannotBeEmpty()->end()
             ->end()
         ;
 

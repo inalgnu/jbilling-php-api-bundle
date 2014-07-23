@@ -10,9 +10,9 @@
 
     <services>
         <service id="jbilling_php_api_factory" class="%jbilling_php_api_factory.class%">
-                <argument type="string" id="%jbilling_api.url%" />
-                <argument type="string" id="%jbilling_api.username%"/>
-                <argument type="string" id="%jbilling_api.password%"/>
+                <argument>%j_billing_php_api.url%</argument>
+                <argument>%j_billing_php_api.username%</argument>
+                <argument>%j_billing_php_api.password%</argument>
         </service>
     </services>
 </container>
