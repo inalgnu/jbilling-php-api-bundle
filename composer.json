@@ -7,7 +7,6 @@
             "email": "inal.djafar@ulipse.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.7",
         "inalgnu/jbilling-php-api": "*",
