@@ -1,0 +1,16 @@
+{
+    "name": "inalgnu/jbilling-php-api-bundle",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Inal DJAFAR",
+            "email": "inal.djafar@ulipse.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.7",
+        "inalgnu/jbilling-php-api": "*",
+        "symfony/symfony": "2.*"
+    }
+}
