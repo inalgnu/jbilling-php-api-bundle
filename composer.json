@@ -11,5 +11,10 @@
         "php": ">=5.3.7",
         "inalgnu/jbilling-php-api": "*",
         "symfony/symfony": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JBilling\\Bundle\\": ""
+        }
     }
 }
